@@ -1,0 +1,195 @@
+body
+{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------------------
+                                 entete No 1
+--------------------------------------------------------------------------------------------- */
+
+header
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.entete1
+{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+
+.entete1 ul
+{
+    list-style: none;
+   display: flex;
+   
+}
+
+.entete1 ul li a
+{
+    margin-left: 8rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none; 
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------
+                                 entete No 2-bar menu version desktop
+--------------------------------------------------------------------------------------------- */
+
+
+.entete2
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ 
+.entete2 .varpm 
+{
+   
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.entete2 .varpm:hover 
+{
+   
+  letter-spacing: 0.5rem;
+}
+
+.entete2 ul
+{
+    list-style: none;
+   display: flex;
+   
+}
+
+.entete2 ul li a
+{
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;  
+}
+
+.entete2 ul li a:hover
+{
+     background:blue;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------
+                          container     bannaire
+-------------------------------------------------------------------------------------------- */
+
+.bannaire
+{
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/calculator-calculation-insurance-finance-53621.jpeg);
+    background-size: cover;
+}
+
+
+/* ----------------------------------------------------------------------------------------------
+               container description varpm
+-------------------------------------------------------------------------------------------- */
+
+.description-varpm
+{  
+    margin: 3%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description-varpm .logo
+{
+    width: 50%;
+}
+
+
+.description-varpm .description 
+{
+    width: 60%;
+    text-align: justify;
+}
+
+
+
+/* -----------------------------------------------------------------------------------------
+            container logo universites
+----------------------------------------------------------------------------------------- */
+
+.university
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.university div 
+{
+   margin-top: 5%;
+    
+}
+
+.university div img
+{
+    border: solid 1px gray;
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+/* -----------------------------------------------------------------------------------------
+            container logo universites
+----------------------------------------------------------------------------------------- */
+
+.partenariat
+{
+    margin-top:5%;
+}
+
+.partenariat h1
+{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.partenariat ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* -----------------------------------------------------------------------------------------
+                         footer
+----------------------------------------------------------------------------------------- */
+
+footer
+{
+    margin-top: 5%;
+    background: black;
+    padding: 4rem;
+}
+
