@@ -146,7 +146,7 @@ header
 ----------------------------------------------------------------------------------------- */
 .box_exercice_var,.niveau_2
 {
-    height: 200px;
+    height: auto;
     background:#CCCCCC;
 
 }
@@ -192,7 +192,7 @@ header
 
 .niveau_2
 {
-    height: 310px;
+    height: auto;
 }
 
 .niveau_2 div
