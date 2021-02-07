@@ -132,6 +132,79 @@ header
     width:40%;
     text-align: justify;
 }
+/* year degree */
+.year_degree
+{
+    text-align: center;
+    background-color: #1DAAF2;
+    color: white;
+    padding: 3px;
+    margin-top: 10px;
+}
+/* --------------------------------------------------------`---------------------------------
+            container execercice var
+----------------------------------------------------------------------------------------- */
+.box_exercice_var,.niveau_2
+{
+    height: 200px;
+    background:#CCCCCC;
+
+}
+
+.same_box_exercice
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+.same_box_exercice div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(83, 83, 83);
+    width: 200px;
+    padding: 5px;
+}
+
+/* ajout de couleur de fond pour les boites */
+.same_box_exercice div:nth-child(1)
+{
+    background-color: #1DAAF2;
+}
+
+.same_box_exercice div:nth-child(2)
+{
+    background-color: #8CC052;  
+}
+
+
+.same_box_exercice div:nth-child(3)
+{
+    background-color: #5D50C6; 
+}
+
+/* segon degree */
+
+.niveau_2
+{
+    height: 310px;
+}
+
+.niveau_2 div
+{
+    padding: 20px;
+}
+
+.niveau_2 .single_box div:nth-child(1)
+{
+    background-color: #8CC052;  
+   
+}
 
 
 
@@ -151,7 +224,6 @@ header
 .university div 
 {
    margin-top: 5%;
-    
 }
 
 .university div img
