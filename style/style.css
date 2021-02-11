@@ -1,4 +1,7 @@
 /* global property */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 *,::after,::before
 {
  margin: 0;
@@ -8,7 +11,7 @@
 
 body
 {
-    font-family:Helvetica,Arial,sans-serif;
+    font-family:'Helvetica',Arial,sans-serif;
 }
 
 #container
@@ -96,15 +99,24 @@ header
 /* ------------------------------------------------------------------------------------------
                           container     banner 
 -------------------------------------------------------------------------------------------- */
-
+.banner h1
+{
+    background-color: rgba(17, 16, 16,0.6);
+    padding: 5px;
+}
 .banner
 {
-    
+    display: flex;
     background: url(../images/calculator-calculation-insurance-finance-53621.jpeg) no-repeat;
     width: 100%;
     height: 600px;
     background-size: cover;
     margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #1DAAF2;
+    font-size: 1.7em;
+    
 }
 
 
@@ -115,20 +127,23 @@ header
 .description-varpm
 {  
     display: flex;
-    justify-content: space-around;
-    margin-left:10%;
-    margin-right:10%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather',sans-serif;
 }
 
-.description-varpm .logo
+
+
+.description-varpm h1
 {
-    width:40%;
+  text-align: center;  
+  font-size:2em; 
 }
-
 
 .description-varpm .description 
 {
-    width:40%;
+    margin-left: 50px;
+    width:50%;
     text-align: justify;
 }
 /* year degree */
@@ -222,14 +237,14 @@ header
 
 .university div 
 {
-   margin-top: 5%;
+   margin-top: 20px;
 }
 
 .university div img
 {
     border: solid 1px gray;
     border-radius: 50%;
-    width: 200px;
+    width: 120px;
 }
 
 
@@ -239,20 +254,22 @@ header
 
 .partenariat
 {
-    margin-top:5%;
+    margin-top:20px;
 }
 
 .partenariat h1
 {
+    margin-bottom: 20px;
     text-align: center;
-    margin-bottom: 5%;
+    text-decoration: underline;
 }
 .partenariat ul
 {
-    list-style: none;
+    list-style-image:url('../images/icon_partenariat.png');
     display: flex;
     justify-content: space-evenly;
 }
+
 
 /* -----------------------------------------------------------------------------------------
                          footer
@@ -289,6 +306,7 @@ footer h1
 .atom_icon
 {
     font-size: 3em;
+    color: rgb(29,170,242);
 }
 
 
