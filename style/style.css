@@ -14,14 +14,16 @@ body
     font-family:'Helvetica',Arial,sans-serif;
 }
 
-#container
-{
-    height: 100vh;
+#container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-a
-{
+
+a{
     color: inherit;
-    text-decoration: none;
 }
 
 a:hover
@@ -34,10 +36,11 @@ a:hover
 
 header
 {
+    display: flex;
+    flex-direction: column;
     position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
+    background-color: #fff;
 }
 
 
@@ -46,11 +49,20 @@ header
 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color:#1DAAF2;
     color: white;
-    padding: 9px;
+    padding: .2rem .5rem;
 }
 
+.info_header > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: 0 .5rem;
+    text-align: center;
+}
 /* ---------------------------------------------------------------------------------------------
                                  entete No 2-bar menu version desktop
 --------------------------------------------------------------------------------------------- */
@@ -58,42 +70,58 @@ header
 
 .nav_header
 {
-    padding: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_header > *{
+    padding: .1rem .5rem;
+}
+
+.nav_header > .varpm{
+    margin: .1rem .5rem .1rem 0;
+}
+
+#close-open {
+    display: none;
+}
+
+.nav_header> ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: .1rem 0 .1rem 0;
 }
 
 .nav_header ul li a:hover
 {
+    flex: 1;
     background-color: #1DAAF2;
     color: white;
 }
  
-.nav_header .varpm 
-{
-   
+.nav_header .varpm {
   font-weight: bold;
   font-size: 1.4rem;
   cursor: pointer;
 }
 
-.nav_header .varpm:hover 
-{
+.nav_header .varpm:hover {
   letter-spacing: 0.5rem;
 }
 
-.nav_header ul
+/* .nav_header ul
 {
     list-style: none;
     display: flex;
-   
-}
+} */
 
 .nav_header ul li a
 {
-    padding: 1rem;
-    font-size: 1.3rem;  
+    padding: .1rem 1rem;
+    font-size: 1.3rem;
 }
 
 /* ------------------------------------------------------------------------------------------
