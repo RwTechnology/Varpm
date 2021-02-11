@@ -6,7 +6,6 @@
  box-sizing: border-box;
 }
 
-
 body
 {
     font-family:Helvetica,Arial,sans-serif;
@@ -261,8 +260,46 @@ header
 
 footer
 {
-    margin-top: 5%;
-    background: black;
-    padding: 4rem;
+    margin-top:1rem;
+    color:white;
+    background-color: #03020B;
+}
+footer a:hover
+{
+    color:#1DAAF2;
 }
 
+footer i
+{
+    font-size: 2em;
+}
+footer h1
+{
+    font-size:1em;
+}
+
+.footer_div
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.atom_icon
+{
+    font-size: 3em;
+}
+
+
+.info_sup
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon_footer a
+{
+   padding-right:16px;
+}
